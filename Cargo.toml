@@ -16,7 +16,7 @@ categories = ["algorithms", "rust-patterns", "no-std", "no-std::no-alloc"]
 edition = "2018"
 
 # When bumping, please resolve all `#[allow(clippy::*)]` that are newly resolvable.
-rust-version = "1.63.0"
+# rust-version = "1.63.0"
 
 [lib]
 bench = false
@@ -79,3 +79,5 @@ harness = false
 [[bench]]
 name = "k_smallest"
 harness = false
+
+#[workspace]
