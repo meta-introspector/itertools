@@ -37,8 +37,8 @@ default = ["use_std"]
 use_std = ["use_alloc", "either/use_std"]
 use_alloc = []
 
-[profile]
-bench = { debug = true }
+# [profile]
+# bench = { debug = true }
 
 [[bench]]
 name = "tuple_combinations"
